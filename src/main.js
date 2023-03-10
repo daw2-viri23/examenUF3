@@ -9,4 +9,7 @@ import { home } from './vistas/home'
 
 document.querySelector('header').innerHTML = header.template
 document.querySelector('#formulario').innerHTML = formulario.template
-document.querySelector('#contenido').innerHTML = miTabla.template
+
+miTabla.borrar()
+home.script()
+console.log(miTabla.usuarios);

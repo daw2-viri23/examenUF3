@@ -31,7 +31,7 @@ export const formulario = {
                 <input type="number" class="form-control" id="cantidad" name="cantidad">
             </div>
 
-            <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+            <button type="submit" class="btn btn-primary mt-3">Añadir al pedido</button>
         </form>
         </div>
         <div class="col-6">

@@ -1,6 +1,18 @@
+import { miTabla } from '../componentes/tablaCantidades'
+
 export const home = {
-    template: `<h1>home de Viri</h1>`,
+    template: `
+       <div class="row">
+                <div id="registro" class="col-12">
+                </div> 
+               <div class="col-8">
+                    ${miTabla.pintaTabla()}
+               </div> 
+               
+       </div> 
+      
+    `,
     script: ()=>{
-        console.log('esto es el home de viri');
+        document.querySelector('#contenido').innerHTML = home.template
     }
 }
